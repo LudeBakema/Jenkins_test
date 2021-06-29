@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="batch scripts" Type="Folder">
+			<Item Name="Build.bat" Type="Document" URL="../batch_files/Build.bat"/>
+			<Item Name="UnitTest.bat" Type="Document" URL="../batch_files/UnitTest.bat"/>
+		</Item>
 		<Item Name="jenkins_unit_test.vi" Type="VI" URL="../jenkins_unit_test.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="unit_test.vi" Type="VI" URL="../unit_test.vi"/>
