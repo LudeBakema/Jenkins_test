@@ -4,7 +4,7 @@ pipeline {
     stage('Unit test') {
       steps {
         bat '.\\\\batch_files\\\\UnitTest.bat'
-        junit '.xml'
+        junit(testResults: '*.xml', allowEmptyResults: true)
       }
     }
 
