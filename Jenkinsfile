@@ -1,9 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('ssh test') {
+    stage('') {
       steps {
-        sh 'ssh 320051346@NLVEHVRES2NBKCR'
+        sh '''#! /bin/bash
+echo   "hello world"
+
+
+
+
+'''
       }
     }
 
