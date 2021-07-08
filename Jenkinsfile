@@ -1,15 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('unit test') {
       steps {
-        sh '''#!/bin/bash
-echo   "hello world"
-
-
-
-
-'''
+        bat './/batch_files/UnitTest.bat'
+        junit '*.xml'
       }
     }
 
