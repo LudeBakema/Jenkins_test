@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="add_test" errors="0" skipped="1" tests="1" failures="0" timestamp="2021-07-08T16:57:36">
+  <testcase classname="add_test" name="2+5 = 7">
+    <failure message="test failure">"FAIL"</failure>
+  </testcase>
+</testsuite>
+</testsuites>
