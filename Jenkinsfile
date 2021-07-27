@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        bat './/batch_files/Build.bat'
+      }
+    }
+
   }
 }
